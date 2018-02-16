@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LimitsServiceApplication {
 
 	public static void main(String[] args) {
-		//Just to test ...
 		SpringApplication.run(LimitsServiceApplication.class, args);
 	}
 }
