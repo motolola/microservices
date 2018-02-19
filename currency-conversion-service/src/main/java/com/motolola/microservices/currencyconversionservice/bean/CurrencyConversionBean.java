@@ -2,14 +2,12 @@ package com.motolola.microservices.currencyconversionservice.bean;
 
 import java.math.BigDecimal;
 
-import org.apache.el.lang.ELArithmetic.LongDelegate;
-
 public class CurrencyConversionBean {
 	
 	private Long id;
 	private String from;
 	private String to;
-	private BigDecimal convesionMultiple;
+	private BigDecimal conversionMultiple;
 	private BigDecimal quantity;
 	private BigDecimal totalCalculatedAmount;
 	private int port;
@@ -17,13 +15,13 @@ public class CurrencyConversionBean {
 	public CurrencyConversionBean() {
 		
 	}
-	public CurrencyConversionBean(Long id, String from, String to, BigDecimal convesionMultiple, BigDecimal quantity,
+	public CurrencyConversionBean(Long id, String from, String to, BigDecimal conversionMultiple, BigDecimal quantity,
 			BigDecimal totalCalculatedAmount, int port) {
 		super();
 		this.id = id;
 		this.from = from;
 		this.to = to;
-		this.convesionMultiple = convesionMultiple;
+		this.conversionMultiple = conversionMultiple;
 		this.quantity = quantity;
 		this.totalCalculatedAmount = totalCalculatedAmount;
 		this.port = port;
@@ -46,11 +44,11 @@ public class CurrencyConversionBean {
 	public void setTo(String to) {
 		this.to = to;
 	}
-	public BigDecimal getConvesionMultiple() {
-		return convesionMultiple;
+	public BigDecimal getConversionMultiple() {
+		return conversionMultiple;
 	}
-	public void setConvesionMultiple(BigDecimal convesionMultiple) {
-		this.convesionMultiple = convesionMultiple;
+	public void setConvesionMultiple(BigDecimal conversionMultiple) {
+		this.conversionMultiple = conversionMultiple;
 	}
 	public BigDecimal getQuantity() {
 		return quantity;
@@ -70,7 +68,5 @@ public class CurrencyConversionBean {
 	public void setPort(int port) {
 		this.port = port;
 	}
-	
-	
 
 }
