@@ -21,7 +21,6 @@ DOCKER DEPLOYMENT STEPS
   docker images (shows list of built images on the system)
   docker run -p 8085:8085 docker-spring-boot-name
 
-==============================
 SPRING CLOUD MICROSERVICES CONFIGURATION
 ==============================
 
