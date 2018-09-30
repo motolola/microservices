@@ -21,9 +21,9 @@ DOCKER DEPLOYMENT STEPS
   docker images (shows list of built images on the system)
   docker run -p 8085:8085 docker-spring-boot-name
 
-========================================================================
+==============================
 SPRING CLOUD MICROSERVICES CONFIGURATION
-===============================================================
+==============================
 
 1.Create a GIT Repository
 2.Create a Spring Cloud SERVER and SET the port eg.
@@ -31,7 +31,9 @@ SPRING CLOUD MICROSERVICES CONFIGURATION
 server.port=8888
 ```
 3. Set the application name eg,
+```
 spring.application.name=spring-cloud-config-server
+```
 4.Connect the SERVER to the git Repository via the Application properties. eg
 ```
 spring.cloud.config.server.git.uri=file:///motolola/git/spring-micro-services/03.microservices/git-localconfig-repo
